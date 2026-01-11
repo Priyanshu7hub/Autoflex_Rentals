@@ -1,0 +1,148 @@
+/* === Freedo Car Rental Login Style === */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #2b5876, #4e4376);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.login-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 40px 50px;
+  width: 400px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.3);
+}
+
+/* Title */
+.login-container h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.login-container h1 span {
+  color: #ffda79;
+}
+
+/* Inputs */
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.login-container input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Button */
+.login-container button {
+  width: 100%;
+  background: #ffda79;
+  color: #2b2b2b;
+  border: none;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.login-container button:hover {
+  background: #ffc107;
+  transform: scale(1.03);
+}
+
+/* Error message */
+.error {
+  color: #ff6b6b;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* Register link */
+.login-container a {
+  display: block;
+  color: #ffda79;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #1e1e1e;
+    color: white;
+}
+
+.admin-header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.admin-header nav a:hover {
+    color: #00ffb3;
+}
+
+.dashboard-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background: #121212;
+    color: white;
+}
+
+.card {
+    background: #1f1f1f;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 220px;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: #00ffb3;
+    color: #000;
+}
+
+.logout-btn {
+    background: #ff3b3b;
+    padding: 8px 14px;
+    border-radius: 6px;
+    color: white !important;
+}
